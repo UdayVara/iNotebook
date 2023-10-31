@@ -1,6 +1,5 @@
 {
   "name": "inotebook",
-  "homepage": "http://UdayVara.github.io/iNotebook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
