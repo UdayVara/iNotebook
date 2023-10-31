@@ -16,7 +16,7 @@ function Signup() {
     const handleSubmit = async(e) => {
         e.preventDefault();
         console.log(credentials)
-        const response = await fetch("http://localhost:5000/api/auth/signup", {
+        const response = await fetch("https://inotebook-ckki.onrender.com/api/auth/signup", {
             method: 'POST', // *GET, POST, PUT, DELETE, etc.
             headers: {
                 'Content-Type': 'application/json',

@@ -2,7 +2,7 @@ import NoteContext from "./noteContext";
 import { useState } from "react";
 
 const NoteState = (props) =>{
-  let url = "http://localhost:5000"
+  let url = "https://inotebook-ckki.onrender.com"
   const [notes,updateNotes]=useState([])
 
 
